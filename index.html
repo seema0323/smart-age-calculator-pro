@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Smart Age Calculator Pro</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="bg-circle c1"></div>
+<div class="bg-circle c2"></div>
+<div class="bg-circle c3"></div>
+
+<button id="themeToggle" class="theme-btn">
+🌙
+</button>
+
+<div class="container">
+
+<div class="header">
+
+<h1>Smart Age Calculator Pro</h1>
+
+<p>
+Discover your age insights, birthday analytics and life statistics.
+</p>
+
+</div>
+
+<div class="input-section">
+
+<input
+type="date"
+id="dob"
+>
+
+<button id="calculateBtn">
+Calculate Age
+</button>
+
+</div>
+
+<div id="errorMessage"></div>
+
+<div class="stats-grid">
+
+<div class="card">
+<h3>Years</h3>
+<p id="years">--</p>
+</div>
+
+<div class="card">
+<h3>Months</h3>
+<p id="months">--</p>
+</div>
+
+<div class="card">
+<h3>Days</h3>
+<p id="days">--</p>
+</div>
+
+<div class="card">
+<h3>Weeks</h3>
+<p id="weeks">--</p>
+</div>
+
+<div class="card">
+<h3>Hours</h3>
+<p id="hours">--</p>
+</div>
+
+<div class="card">
+<h3>Minutes</h3>
+<p id="minutes">--</p>
+</div>
+
+<div class="card">
+<h3>Total Days</h3>
+<p id="totalDays">--</p>
+</div>
+
+<div class="card">
+<h3>Birth Day</h3>
+<p id="birthDay">--</p>
+</div>
+
+</div>
+
+<div class="insight-section">
+
+<div class="info-box">
+🎂 Next Birthday:
+<span id="birthdayCountdown">--</span>
+</div>
+
+<div class="info-box">
+♈ Zodiac Sign:
+<span id="zodiac">--</span>
+</div>
+
+<div class="info-box">
+🐉 Chinese Zodiac:
+<span id="chineseZodiac">--</span>
+</div>
+
+<div class="info-box">
+👤 Category:
+<span id="category">--</span>
+</div>
+
+<div class="info-box">
+📈 Life Progress:
+<span id="lifeProgress">--</span>
+</div>
+
+</div>
+
+<div class="buttons">
+
+<button id="copyBtn">
+Copy Result
+</button>
+
+</div>
+
+<footer>
+
+<h3>Developed By</h3>
+
+<p>Seema Yadav</p>
+
+<p>yadavseema0323@gmail.com</p>
+
+<div class="footer-buttons">
+
+<a
+href="https://github.com/seema0323/smart-age-calculator-pro"
+target="_blank">
+
+<button>
+GitHub Repository
+</button>
+
+</a>
+
+<a
+href="https://www.linkedin.com/in/seema-yadav-a55910358"
+target="_blank">
+
+<button>
+LinkedIn Profile
+</button>
+
+</a>
+
+<a
+href="https://digitalheroesco.com"
+target="_blank">
+
+<button class="heroes-btn">
+Built for Digital Heroes
+</button>
+
+</a>
+
+</div>
+
+</footer>
+
+</div>
+
+<div id="toast">
+Results Copied Successfully ✅
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
